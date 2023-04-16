@@ -13,9 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo-jenkins</name>
 	<description>Demo project for Spring Boot</description>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -37,14 +34,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-web</artifactId>
 			<version>6.0.8</version>
-		</dependency>
-
-
-		<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
-		<dependency>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-compiler-plugin</artifactId>
-			<version>3.11.0</version>
 		</dependency>
 
 	</dependencies>
